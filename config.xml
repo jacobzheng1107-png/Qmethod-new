@@ -42,6 +42,10 @@
      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
      <item id="form">
+        <label>Your Name please</label>
+        <note>?</note>
+        <input type="text" required="true" maxlength="1000" ></input>
+
      </item>
 
      <!-- URL for data transmission via POST/GET (leave blank if not required) -->
