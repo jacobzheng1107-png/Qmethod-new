@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continue...</item>
+        <item id="btnclose">Close</item>
+        <item id="btnHelp">Help me!</item>
+        <item id="btnAgreement">Agree</item>
+        <item id="btnNeutral">Neutral</item>
+        <item id="btnDisagreement">Disagree</item>
+        <item id="btnTransfer">Submit data</item>
+        <item id="btnExit">Exit</item>
+        <item id="selectItem">Please select...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Back</item>
+        <item id="fillInRequiredFields">Please fill in all required fields</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welcome!</item>
+        <item id="welcomeText">欢迎参与“生成式AI辅助英语写作中的元认知体验”研究。{br}{br}
+
+{b}** 研究简介 **{/b}{br}
+本研究旨在了解中国英语学习者在使用生成式AI（如ChatGPT、Kimi、文心一言等）辅助英语写作时的感受、判断与认知。您的参与将帮助我们深入理解人机协作写作过程中的主观体验类型，为优化外语写作教学提供实证依据。{br}{br}
+
+{b}** 开始前的准备 **{/b}{br}
+• 本次Q排序任务需要尽可能大的屏幕空间以确保拖拽/点击操作流畅。{br}
+• 请务必 {b}最大化{/b} 您的浏览器窗口，然后 {b}{i}刷新{/i}{/b} 此页面，点击“继续”开始。{br}
+• 预计耗时：排序任务约 {b}20-25分钟{/b}，后续简短访谈约 {b}5-10分钟{/b}。{br}{br}
+
+{b}** 任务说明 **{/b}{br}
+1. 仔细阅读36条陈述，这些陈述描述了使用GenAI辅助英语写作时可能产生的感受、判断或认知。{br}
+2. 根据您的 {i}真实体验{/i}，将陈述拖拽至 {-b}-5（最不符合）{/b} 到 {b}+5（最符合）{/b} 的网格中。{br}
+3. 请严格遵循网格每栏顶部的固定数量要求（准正态分布）。{br}
+4. 本任务 {b}没有标准答案{/b}，请完全依据您的主观体验进行排序，而非您认为“应该”如何选择。{br}{br}
+
+{b}** 伦理与隐私声明 **{/b}{br}
+• 您的参与完全 {b}自愿{/b} 且 {b}匿名{/b}，不会收集任何可识别个人身份的信息。{br}
+• 所有数据仅用于 {b}学术研究{/b}，结果将以汇总形式呈现，绝不会单独公开。{br}
+• 您可在排序过程中的任何时间 {b}随时退出{/b}，且不会受到任何不利影响。{br}
+• 完成后系统将生成您的 {b}参与者编号{/b}，请截图或记下该编号，以便后续自愿参与深度访谈。{br}{br}
+
+{b}** 技术支持 **{/b}{br}
+如遇页面加载异常、按钮无响应或排序错误，请尝试刷新页面，或联系研究负责人</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introduction</item>
+        <item id="introText">该研究聚焦于GenAI辅助下的EFL写作者的元认知体验</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arrange them in the remaining open boxes of the score sheet.</item>
+        <item id="step2CondOfInstruc">Give condition of instruction here</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if desired.</item>
+        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Thank you for using Easy HTMLQ!{br}{br}You can now close your browser window.</item>   
+   </language>
